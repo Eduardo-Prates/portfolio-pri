@@ -1,11 +1,11 @@
-# Portfólio Reflexivo Individual (PRI)
+# Portfólio Reflexivo Individual (PRI) - Eduardo Prates
 ## Componente Curricular: Acessibilidade e Inclusão Digital
 
 Este documento registra as aprendizagens teóricas e práticas desenvolvidas ao longo do semestre, com foco na construção de sistemas computacionais inclusivos.
 
 ---
 
-## 📑 Registros de Aprendizagem
+## Registros de Aprendizagem
 
 ### Fundamentos da Acessibilidade Digital
 * **Pilares do Desenvolvimento:** Estudo e reflexão sobre os conceitos de **Inclusão**, **Acessibilidade** e **Adaptabilidade** aplicados a sistemas de software.
@@ -35,8 +35,8 @@ Este documento registra as aprendizagens teóricas e práticas desenvolvidas ao 
 
 ---
 
-## ♿ Boas Práticas de Acessibilidade Adotadas
-A manutenção deste portfólio segue rigorosamente as seguintes diretrizes de acessibilidade:
+##  Boas Práticas de Acessibilidade Adotadas
+A manutenção deste portfólio segue as seguintes diretrizes de acessibilidade:
 
 1.  **Hierarquia de Cabeçalhos:** Estruturação semântica (H1, H2, H3) para garantir a navegabilidade por leitores de tela.
 2.  **Texto Alternativo (Alt Text):** Descrições textuais integradas em todas as imagens e elementos visuais.
