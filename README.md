@@ -5,6 +5,15 @@ Este documento registra as aprendizagens teóricas e práticas desenvolvidas ao 
 
 ---
 
+## Sumário
+1. [Registros de Aprendizagem](#registros-de-aprendizagem)
+2. [Proposta de Tecnologia Inclusiva](#estudo-de-caso-proposta-de-tecnologia-inclusiva)
+3. [Análise Prática: Barreiras Arquitetônicas no Espaço Urbano](#análise-prática-barreiras-arquitetônicas-no-espaço-urbano)
+4. [Aplicações na Engenharia de Software](#aplicações-na-engenharia-de-software)
+5. [Boas Práticas de Acessibilidade Adotadas](#boas-práticas-de-acessibilidade-adotadas)
+
+---
+
 ## Registros de Aprendizagem
 
 ### Fundamentos da Acessibilidade Digital
@@ -33,12 +42,47 @@ Este documento registra as aprendizagens teóricas e práticas desenvolvidas ao 
 * **Recursos de Tecnologia Assistiva:** Estudo de ferramentas e softwares que ampliam as habilidades funcionais de usuários com deficiência.
 * **Acessibilidade Aplicada:** Prática de registros e avaliações de acessibilidade em ambientes físicos e digitais de aprendizagem.
 
+### Proposta de Tecnologia Inclusiva
+Durante as atividades colaborativas da disciplina, foi desenvolvido um cenário especulativo focando na aplicação prática do Desenho Universal no cotidiano urbano:
+
+* **O Cenário (Mobilidade e Integração):** Um ambiente de mobilidade urbana onde qualquer cidadão consegue navegar pela cidade, utilizar transporte público e interagir de forma autônoma e sem barreiras de comunicação.
+* **A Tecnologia (Óculos de Percepção Aumentada com IA):** Um dispositivo vestível equipado com câmeras de alta definição, alto-falantes de condução óssea e um agente de IA capaz de interpretar o mundo visual e auditivo em tempo real.
+* **Recursos Oferecidos:** Transcrição de fala para texto (legendas visuais), audiodescrição em tempo real, leitura óptica adaptativa e navegação espacial "mãos livres".
+
+### Análise Prática: Barreiras Arquitetônicas no Espaço Urbano
+Registro fotográfico e crítico das condições de acessibilidade em espaços públicos, contrastando a realidade com os princípios do Desenho Universal.
+
+#### Caso 1: Acesso à Ponte Borges de Medeiros
+![Acesso de pedestres à Ponte Borges de Medeiros](./images/AcessoDepedestresPonteBorgesdeMedeiros.jpg)
+
+* **Contexto:** Rota de alto fluxo diário de veículos e pedestres.
+* **Barreiras Encontradas:** Superfície irregular, meio-fio destruído e grelha de escoamento com buracos largos.
+* **Falha no Desenho Universal:** Não atende ao Uso Equitativo, à Tolerância ao Erro e ao Baixo Esforço Físico. 
+
+#### Caso 2: Travessia em frente à Farmácia São João
+![Calçada sem rampa em frente à faixa de pedestres](./images/Calcadasemrampaemfrenteafaixadepedestres.png)
+
+* **Contexto:** Travessia noturna em frente a um estabelecimento de saúde.
+* **Barreiras Encontradas:** Ausência de rampa de acesso na calçada correspondente à faixa de pedestres.
+* **Falha no Desenho Universal:** Falha grave no Uso Equitativo, excluindo arbitrariamente pessoas com mobilidade reduzida em um ponto de acesso a serviços de saúde.
+
 ---
 
-##  Boas Práticas de Acessibilidade Adotadas
-A manutenção deste portfólio segue as seguintes diretrizes de acessibilidade:
+## Aplicações na Engenharia de Software
 
-1.  **Hierarquia de Cabeçalhos:** Estruturação semântica (H1, H2, H3) para garantir a navegabilidade por leitores de tela.
-2.  **Texto Alternativo (Alt Text):** Descrições textuais integradas em todas as imagens e elementos visuais.
-3.  **Links Descritivos:** Substituição de termos genéricos por descrições claras sobre o destino de cada link.
-4.  **Contraste e Legibilidade:** Uso de padrões visuais que facilitam a leitura para pessoas com baixa visão ou daltonismo.
+A integração da acessibilidade no desenvolvimento transforma a arquitetura e o ciclo de vida de uma aplicação, atuando diretamente nos pilares da engenharia:
+
+* **Qualidade:** Tratada como um **Requisito Não Funcional (RNF)** essencial para validar a operação do sistema com tecnologias assistivas.
+* **Processos:** Inclusão de critérios de acessibilidade no *Definition of Done* das metodologias ágeis.
+* **Métodos:** Adoção do **Design Centrado no Usuário (UCD)** e rigoroso gerenciamento de foco em Single-Page Applications (SPAs).
+* **Ferramentas:** Uso de frameworks compatíveis com **WAI-ARIA** e automação de testes (Axe DevTools/Lighthouse) no pipeline de CI/CD.
+
+---
+
+## Boas Práticas de Acessibilidade Adotadas
+A manutenção deste portfólio segue as seguintes diretrizes:
+
+1. **Hierarquia de Cabeçalhos:** Estruturação semântica para garantir a navegabilidade.
+2. **Texto Alternativo (Alt Text):** Descrições textuais em todos os elementos visuais.
+3. **Links Descritivos:** Substituição de termos genéricos por descrições claras sobre o destino.
+4. **Contraste e Legibilidade:** Padrões visuais que facilitam a leitura para pessoas com baixa visão.
